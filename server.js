@@ -105,7 +105,7 @@ app.get('/pagecount', function (req, res) {
       res.send('{ The pageCount is (drumroll please...): ' + count + '}');
     });
   } else {
-    res.send('{ pageCount is (drumroll please...): 1e6 }');
+    res.send('{ pageCount is (drumroll please...): -1 }');
   }
 });
 
